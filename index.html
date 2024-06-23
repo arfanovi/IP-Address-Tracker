@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My IP Track</title>
+
+    <!-- CSS Adding  -->
+     <link rel="stylesheet" href="src/style.css">
+    <title>U'r IP Track</title>
 </head>
 <body>
     
@@ -11,24 +14,23 @@
 
 
     <!-- Adding Header Section  -->
-     <header>
-        <div>
-            <h1>IP ADDRESS TRACKER</h1>
-            <form action="">
+     <header class="header">
+        <div class="wrapper center">
+            <h1 class="header_title">IP ADDRESS TRACKER</h1>
+            <form class="header_form" action="">
                 <input type="text" name="" id="search" placeholder="Searching any IP address or Domain">
                 <button>
                     Search
                 </button>
             </form>
-        </div>
-        <div>
+        <div class="header_desc">
             <div>
-                <p>IP Address</p>
+                <p class="large_text">IP Address</p>
                 <p class="address"></p>
             </div>
             <div>
                 <p>Location</p>
-                <p><span class="location"></span></p>
+                <p class="large_text"><span class="location"></span></p>
             </div>
             <div>
                 <p>TImeZone</p>
@@ -39,6 +41,7 @@
                 <p class="large_text"><span class="isp"></span></p>
             </div>
         </div>
+    </div>
      </header>
 
 
