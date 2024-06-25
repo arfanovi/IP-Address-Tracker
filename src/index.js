@@ -72,6 +72,7 @@ function update_ui(ip_address, location, timezone, ispName) {
   isp.textContent = ispName;
 }
 
+
 /* Create map with default values when page loads */
-const defaultIp = "26.37.52.179";
+const defaultIp = "103.78.224.10";
 search_Ip_Address(defaultIp);
